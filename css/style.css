@@ -234,3 +234,14 @@ nav{
     top: unset;
     bottom: 5px;
 }
+
+.story-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.story{
+    flex-basis: 18%; /*16:9 ration. So, 16/9= 1.777.... then, 1.777...*18(as width 18%)= 32 So height=32 */
+    padding-top: 32%; /* instead of height here padding-top has used.*/
+}
