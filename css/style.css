@@ -389,3 +389,29 @@ nav{
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.post-activity-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-activity-icon div img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* .post-activity-icon div{
+    display: flex;
+    align-items: center;
+}
+
+.post-activity-icon{
+    display: flex;
+} instead of these we can write: */
+
+.post-activity-icon div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
