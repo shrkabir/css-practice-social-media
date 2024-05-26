@@ -292,3 +292,78 @@ nav{
     border: 0;
     width: 35px;
 }
+
+.write-post-container{
+    width: 100%;
+    background: #fff;
+    color: #626262;
+    padding: 20px;
+    border-radius: 6px;
+    /* box-shadow: 2px 2px 8px #626262; */
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p{
+    color:#626262;
+    font-weight: 500;
+}
+
+.user-profile small{
+    font-size: 12px;
+}
+
+.post-input{
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.post-input textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    resize: none;
+    padding: 20px;
+}
+
+.post-options{
+    display: flex;
+    margin-top: 10px;
+}
+
+.post-options a{
+    text-decoration: none;
+    color:#626262;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.post-options a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.post-container{
+    width: 100%;
+    background-color: #fff;
+    color: #626262;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.user-profile .post-time{
+    color: #9a9a9a;
+    font-size: 13px;
+}
