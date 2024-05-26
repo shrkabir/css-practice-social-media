@@ -367,3 +367,19 @@ nav{
     color: #9a9a9a;
     font-size: 13px;
 }
+
+.post-text{
+    font-size: 15px;
+    color: #9a9a9a;
+    margin: 15px 0;
+}
+
+.post-text span{
+    color: #626262;
+    font-weight: 500;
+}
+
+.post-text a{
+    color: #1876f2;
+    text-decoration: none;
+}
