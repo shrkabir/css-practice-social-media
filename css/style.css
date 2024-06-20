@@ -448,3 +448,16 @@ nav{
     padding: 10px 0 20px;
     font-size: 13px;
 }
+
+.settings-menu{
+    width: 90%;
+    max-width: 350px;
+    height: 500px;
+    background: #fff;
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+}
